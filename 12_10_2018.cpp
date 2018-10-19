@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int sommaNprimi (int n);
+int sommaPrimiN (int n);
 
 int main ()
 {
@@ -14,7 +14,7 @@ int main ()
 	return 0;
 }
 
-int sommaNprimi (int n)
+int sommaPrimiN (int n)
 {
 	int somma=0;
 	for (int i=n; i>0; i--)
